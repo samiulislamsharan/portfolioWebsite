@@ -1,2 +1,3 @@
 # portfolioWebsite
- This website is built using HTML, SCSS and JavaScript.
+
+ This prototype website is built around HTML, SCSS and JavaScript.
