@@ -155,7 +155,7 @@
     background-color: var(--color-grey-5);
 
     .control {
-      margin: 0.3rem 1rem !important;
+      margin: 0.5rem 0.55rem !important;
 
       i {
         font-size: 1.2rem;
@@ -164,7 +164,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .section {
     padding: 7rem 3rem;
   }
@@ -177,5 +177,21 @@
 
   .timeline .timeline-item .timeline-icon {
     left: -25px;
+  }
+
+  .portfolios {
+    grid-template-columns: 1fr;
+  }
+
+  .blogs {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    margin-bottom: 1rem;
+  }
+
+  .footer-section {
+    margin-bottom: 4rem;
   }
 }
