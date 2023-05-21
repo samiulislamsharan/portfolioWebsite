@@ -74,18 +74,22 @@ section {
   display: none;
   transform: translateY(0) scale(1);
 }
+
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
 }
+
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
 }
+
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
 }
+
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
@@ -124,6 +128,7 @@ section {
       color: var(--color-primary) !important;
     }
   }
+
   .control {
     padding: 2rem;
     cursor: pointer;
@@ -586,8 +591,9 @@ section {
       h4 {
         font-size: 1.5rem;
         margin-bottom: 0.7rem;
-        transistion: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
         cursor: pointer;
+
         &:hover {
           color: var(--color-secondary);
         }
